@@ -7,3 +7,4 @@ CREATE TABLE comment (
     user_id BIGINT REFERENCES user(id),
     post_id BIGINT REFERENCES post(id)
 )
+//

@@ -15,3 +15,4 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
 
     List<CommentProjection> findByPostIdIn(List<Long> postIds);
 }
+//

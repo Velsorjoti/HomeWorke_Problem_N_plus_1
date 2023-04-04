@@ -36,3 +36,4 @@ public interface PostRepository extends JpaRepository<Post, Long> {
             "WHERE c.body LIKE %:body%",nativeQuery = true)
     List<Post> findByCommentsBodyContaining(@Param("body") String body);
 }
+//
