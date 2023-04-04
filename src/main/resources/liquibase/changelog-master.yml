@@ -5,3 +5,4 @@ databaseChangeLog:
       file: liquibase/scripts/post.sql
   - include:
       file: liquibase/scripts/comment.sql
+#

@@ -50,3 +50,4 @@ public class ActiveUserDTO {
         this.lastPostId = lastPostId;
     }
 }
+//

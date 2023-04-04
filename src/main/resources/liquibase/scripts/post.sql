@@ -7,3 +7,4 @@ CREATE TABLE post (
     body    VARCHAR(255) NOT NULL,
     user_id BIGINT REFERENCES user(id)
 )
+//
